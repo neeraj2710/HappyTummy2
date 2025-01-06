@@ -71,7 +71,7 @@ public class ViewFoodFrame extends javax.swing.JFrame {
             }
         });
 
-        lblViewStaff1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lblViewStaff1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewStaff1.setForeground(new java.awt.Color(255, 255, 255));
         lblViewStaff1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblViewStaff1.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\add staff.png")); // NOI18N
@@ -106,7 +106,7 @@ public class ViewFoodFrame extends javax.swing.JFrame {
             }
         });
 
-        lblOrderList.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lblOrderList.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblOrderList.setForeground(new java.awt.Color(255, 255, 255));
         lblOrderList.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblOrderList.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\order list.png")); // NOI18N
@@ -141,7 +141,7 @@ public class ViewFoodFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\back.png")); // NOI18N
@@ -200,7 +200,7 @@ public class ViewFoodFrame extends javax.swing.JFrame {
             }
         });
 
-        lblAddStaff2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lblAddStaff2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblAddStaff2.setForeground(new java.awt.Color(255, 255, 255));
         lblAddStaff2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblAddStaff2.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\add staff.png")); // NOI18N
@@ -236,7 +236,7 @@ public class ViewFoodFrame extends javax.swing.JFrame {
             }
         });
 
-        lblViewFood1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lblViewFood1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewFood1.setForeground(new java.awt.Color(255, 255, 255));
         lblViewFood1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblViewFood1.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\add food.png")); // NOI18N

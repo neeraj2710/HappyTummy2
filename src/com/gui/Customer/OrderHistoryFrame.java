@@ -74,6 +74,7 @@ public class OrderHistoryFrame extends javax.swing.JFrame {
 
         lblViewStaff1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewStaff1.setForeground(new java.awt.Color(255, 255, 255));
+        lblViewStaff1.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\cancel-48.png")); // NOI18N
         lblViewStaff1.setText("Cancel Order");
 
         javax.swing.GroupLayout pnlCancelOrderLayout = new javax.swing.GroupLayout(pnlCancelOrder);
@@ -88,9 +89,8 @@ public class OrderHistoryFrame extends javax.swing.JFrame {
         pnlCancelOrderLayout.setVerticalGroup(
             pnlCancelOrderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlCancelOrderLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(lblViewStaff1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(lblViewStaff1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 13, Short.MAX_VALUE))
         );
 
         pnlBack.setBackground(new java.awt.Color(51, 51, 255));
@@ -108,6 +108,7 @@ public class OrderHistoryFrame extends javax.swing.JFrame {
 
         lblOrderList.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblOrderList.setForeground(new java.awt.Color(255, 255, 255));
+        lblOrderList.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\back.png")); // NOI18N
         lblOrderList.setText("Back");
 
         javax.swing.GroupLayout pnlBackLayout = new javax.swing.GroupLayout(pnlBack);
@@ -116,7 +117,7 @@ public class OrderHistoryFrame extends javax.swing.JFrame {
             pnlBackLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlBackLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblOrderList, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblOrderList)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlBackLayout.setVerticalGroup(
@@ -163,6 +164,7 @@ public class OrderHistoryFrame extends javax.swing.JFrame {
 
         lblViewFood1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewFood1.setForeground(new java.awt.Color(255, 255, 255));
+        lblViewFood1.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\view food.png")); // NOI18N
         lblViewFood1.setText("Order Food");
 
         javax.swing.GroupLayout pnlOrderFoodLayout = new javax.swing.GroupLayout(pnlOrderFood);
@@ -197,6 +199,7 @@ public class OrderHistoryFrame extends javax.swing.JFrame {
 
         lblAddStaff3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblAddStaff3.setForeground(new java.awt.Color(255, 255, 255));
+        lblAddStaff3.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\cart-70-48.png")); // NOI18N
         lblAddStaff3.setText("My Cart");
 
         javax.swing.GroupLayout pnlMyCartLayout = new javax.swing.GroupLayout(pnlMyCart);
@@ -231,6 +234,7 @@ public class OrderHistoryFrame extends javax.swing.JFrame {
 
         lblAddStaff2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblAddStaff2.setForeground(new java.awt.Color(255, 255, 255));
+        lblAddStaff2.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\user-48.png")); // NOI18N
         lblAddStaff2.setText("My Account");
 
         javax.swing.GroupLayout pnlMyAccountLayout = new javax.swing.GroupLayout(pnlMyAccount);
@@ -309,9 +313,7 @@ public class OrderHistoryFrame extends javax.swing.JFrame {
 
         jPanel1.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 0, 1270, 40));
 
-        jtCart.setBackground(new java.awt.Color(255, 255, 255));
         jtCart.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jtCart.setForeground(new java.awt.Color(0, 0, 0));
         jtCart.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 

@@ -136,6 +136,9 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="D:\database\Happy Tummy\src\com\icons\order list.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Order History"/>
                   </Properties>
                 </Component>
@@ -158,7 +161,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lblOrderList" min="-2" pref="45" max="-2" attributes="0"/>
+                          <Component id="lblOrderList" min="-2" pref="103" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -177,6 +180,9 @@
                     </Property>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="D:\database\Happy Tummy\src\com\icons\back.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Back"/>
                   </Properties>
@@ -268,6 +274,9 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="D:\database\Happy Tummy\src\com\icons\view food.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Order Food"/>
                   </Properties>
                 </Component>
@@ -314,6 +323,9 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="D:\database\Happy Tummy\src\com\icons\cart-70-48.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="My Cart"/>
                   </Properties>
                 </Component>
@@ -358,6 +370,9 @@
                     </Property>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="D:\database\Happy Tummy\src\com\icons\user-48.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="My Account"/>
                   </Properties>
@@ -429,14 +444,8 @@
           <SubComponents>
             <Component class="javax.swing.JTable" name="jtCart">
               <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="14" style="1"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" red="0" type="rgb"/>
                 </Property>
                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                   <Table columnCount="5" rowCount="0">

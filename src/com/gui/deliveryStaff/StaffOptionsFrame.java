@@ -2,6 +2,7 @@
 package com.gui.deliveryStaff;
 
 import com.gui.Customer.OrderFoodFrame;
+import com.gui.UserVerifyFrame;
 import com.util.UserProfile;
 import java.awt.Color;
 import java.awt.Toolkit;
@@ -33,6 +34,8 @@ public class StaffOptionsFrame extends javax.swing.JFrame {
         lblAddStaff3 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         lblName = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -56,7 +59,8 @@ public class StaffOptionsFrame extends javax.swing.JFrame {
 
         lblViewStaff1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewStaff1.setForeground(new java.awt.Color(255, 255, 255));
-        lblViewStaff1.setText("Logout");
+        lblViewStaff1.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\back.png")); // NOI18N
+        lblViewStaff1.setText("Back");
 
         javax.swing.GroupLayout pnlLogutLayout = new javax.swing.GroupLayout(pnlLogut);
         pnlLogut.setLayout(pnlLogutLayout);
@@ -114,6 +118,7 @@ public class StaffOptionsFrame extends javax.swing.JFrame {
 
         lblViewFood1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewFood1.setForeground(new java.awt.Color(255, 255, 255));
+        lblViewFood1.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\order list.png")); // NOI18N
         lblViewFood1.setText("Order History");
 
         javax.swing.GroupLayout pnlOrderFoodLayout = new javax.swing.GroupLayout(pnlOrderFood);
@@ -148,6 +153,7 @@ public class StaffOptionsFrame extends javax.swing.JFrame {
 
         lblAddStaff3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblAddStaff3.setForeground(new java.awt.Color(255, 255, 255));
+        lblAddStaff3.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\view food.png")); // NOI18N
         lblAddStaff3.setText("View Orders");
 
         javax.swing.GroupLayout pnlViewOrdersLayout = new javax.swing.GroupLayout(pnlViewOrders);
@@ -191,10 +197,10 @@ public class StaffOptionsFrame extends javax.swing.JFrame {
                 .addComponent(pnlOrderFood, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(pnlLogut, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(276, Short.MAX_VALUE))
+                .addContainerGap(232, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 300, -1));
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 300, 690));
 
         jPanel7.setBackground(new java.awt.Color(51, 204, 255));
 
@@ -209,7 +215,7 @@ public class StaffOptionsFrame extends javax.swing.JFrame {
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
-                .addGap(0, 284, Short.MAX_VALUE)
+                .addGap(0, 460, Short.MAX_VALUE)
                 .addComponent(lblName, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jPanel7Layout.setVerticalGroup(
@@ -217,7 +223,22 @@ public class StaffOptionsFrame extends javax.swing.JFrame {
             .addComponent(lblName, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
         );
 
-        jPanel1.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(298, 0, -1, -1));
+        jPanel1.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(298, 0, 720, -1));
+
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\food items (2).png")); // NOI18N
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 130, 560, 340));
+
+        jButton1.setBackground(new java.awt.Color(51, 51, 255));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Logout");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 520, 260, 80));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -227,7 +248,7 @@ public class StaffOptionsFrame extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 641, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -272,6 +293,12 @@ public class StaffOptionsFrame extends javax.swing.JFrame {
         this.pnlViewOrders.setBackground(new Color(51,51,255));
     }//GEN-LAST:event_pnlViewOrdersMouseExited
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        new UserVerifyFrame().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -308,7 +335,9 @@ public class StaffOptionsFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel7;

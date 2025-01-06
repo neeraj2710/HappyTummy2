@@ -64,14 +64,14 @@
                           <Component id="jPanel8" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="pnlMyAccount" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="107" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="pnlOrderHistory" alignment="0" max="32767" attributes="0"/>
                           <Component id="pnlCancelOrder" alignment="0" max="32767" attributes="0"/>
                           <Component id="pnlMyCart" alignment="0" max="32767" attributes="0"/>
                           <Component id="pnlOrderFood" alignment="0" max="32767" attributes="0"/>
+                          <Component id="pnlOrderHistory" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
@@ -91,7 +91,7 @@
                       <Component id="pnlCancelOrder" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="pnlOrderHistory" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="219" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -115,7 +115,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="lblViewStaff1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="191" max="32767" attributes="0"/>
+                          <EmptySpace pref="245" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -123,8 +123,8 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lblViewStaff1" min="-2" pref="44" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="lblViewStaff1" pref="50" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -137,6 +137,9 @@
                     </Property>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="D:\database\Happy Tummy\src\com\icons\cancel-48.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Cancel Order"/>
                   </Properties>
@@ -160,8 +163,8 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lblOrderList" min="-2" pref="117" max="-2" attributes="0"/>
-                          <EmptySpace pref="184" max="32767" attributes="0"/>
+                          <Component id="lblOrderList" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="131" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -179,6 +182,9 @@
                     </Property>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="D:\database\Happy Tummy\src\com\icons\order list.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Order History"/>
                   </Properties>
@@ -247,7 +253,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="lblViewFood1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="205" max="32767" attributes="0"/>
+                          <EmptySpace pref="257" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -269,6 +275,9 @@
                     </Property>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="D:\database\Happy Tummy\src\com\icons\view food.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Order Food"/>
                   </Properties>
@@ -316,6 +325,9 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="D:\database\Happy Tummy\src\com\icons\cart-70-48.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="My Cart"/>
                   </Properties>
                 </Component>
@@ -361,6 +373,9 @@
                     </Property>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="D:\database\Happy Tummy\src\com\icons\user-48.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="My Account"/>
                   </Properties>

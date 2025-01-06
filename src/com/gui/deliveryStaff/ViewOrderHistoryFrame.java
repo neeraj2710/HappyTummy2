@@ -67,6 +67,7 @@ public class ViewOrderHistoryFrame extends javax.swing.JFrame {
 
         lblViewStaff1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewStaff1.setForeground(new java.awt.Color(255, 255, 255));
+        lblViewStaff1.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\back.png")); // NOI18N
         lblViewStaff1.setText("Back");
 
         javax.swing.GroupLayout pnlBackLayout = new javax.swing.GroupLayout(pnlBack);
@@ -125,6 +126,7 @@ public class ViewOrderHistoryFrame extends javax.swing.JFrame {
 
         lblAddStaff3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblAddStaff3.setForeground(new java.awt.Color(255, 255, 255));
+        lblAddStaff3.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\view food.png")); // NOI18N
         lblAddStaff3.setText("View Orders");
 
         javax.swing.GroupLayout pnlViewOrdersLayout = new javax.swing.GroupLayout(pnlViewOrders);
@@ -159,6 +161,7 @@ public class ViewOrderHistoryFrame extends javax.swing.JFrame {
 
         lblViewStaff2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewStaff2.setForeground(new java.awt.Color(255, 255, 255));
+        lblViewStaff2.setIcon(new javax.swing.ImageIcon("D:\\friends\\s1\\logout-48.png")); // NOI18N
         lblViewStaff2.setText("Logout");
 
         javax.swing.GroupLayout pnlLogoutLayout = new javax.swing.GroupLayout(pnlLogout);
@@ -229,9 +232,7 @@ public class ViewOrderHistoryFrame extends javax.swing.JFrame {
 
         jPanel1.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 0, 1320, 40));
 
-        jtViewOrders.setBackground(new java.awt.Color(255, 255, 255));
         jtViewOrders.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jtViewOrders.setForeground(new java.awt.Color(0, 0, 0));
         jtViewOrders.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 

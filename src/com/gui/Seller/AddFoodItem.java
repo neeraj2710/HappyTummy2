@@ -82,8 +82,9 @@ public class AddFoodItem extends javax.swing.JFrame {
             }
         });
 
-        lblViewStaff1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lblViewStaff1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewStaff1.setForeground(new java.awt.Color(255, 255, 255));
+        lblViewStaff1.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\add staff.png")); // NOI18N
         lblViewStaff1.setText("View Staff");
 
         javax.swing.GroupLayout pnlViewStaffLayout = new javax.swing.GroupLayout(pnlViewStaff);
@@ -92,7 +93,7 @@ public class AddFoodItem extends javax.swing.JFrame {
             pnlViewStaffLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlViewStaffLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblViewStaff1, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblViewStaff1)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlViewStaffLayout.setVerticalGroup(
@@ -115,8 +116,9 @@ public class AddFoodItem extends javax.swing.JFrame {
             }
         });
 
-        lblOrderList.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lblOrderList.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblOrderList.setForeground(new java.awt.Color(255, 255, 255));
+        lblOrderList.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\order list.png")); // NOI18N
         lblOrderList.setText("Order List");
 
         javax.swing.GroupLayout pnlOrderListLayout = new javax.swing.GroupLayout(pnlOrderList);
@@ -125,7 +127,7 @@ public class AddFoodItem extends javax.swing.JFrame {
             pnlOrderListLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlOrderListLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblOrderList, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblOrderList)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlOrderListLayout.setVerticalGroup(
@@ -148,8 +150,9 @@ public class AddFoodItem extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\back.png")); // NOI18N
         jLabel2.setText("Back");
 
         javax.swing.GroupLayout pnlBackLayout = new javax.swing.GroupLayout(pnlBack);
@@ -158,7 +161,7 @@ public class AddFoodItem extends javax.swing.JFrame {
             pnlBackLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlBackLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel2)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlBackLayout.setVerticalGroup(
@@ -166,7 +169,7 @@ public class AddFoodItem extends javax.swing.JFrame {
             .addGroup(pnlBackLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel2)
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel8.setBackground(new java.awt.Color(0, 102, 255));
@@ -205,8 +208,9 @@ public class AddFoodItem extends javax.swing.JFrame {
             }
         });
 
-        lblAddStaff2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lblAddStaff2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblAddStaff2.setForeground(new java.awt.Color(255, 255, 255));
+        lblAddStaff2.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\add staff.png")); // NOI18N
         lblAddStaff2.setText("Add Staff");
 
         javax.swing.GroupLayout pnlAddStaffLayout = new javax.swing.GroupLayout(pnlAddStaff);
@@ -215,7 +219,7 @@ public class AddFoodItem extends javax.swing.JFrame {
             pnlAddStaffLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlAddStaffLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblAddStaff2, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblAddStaff2, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlAddStaffLayout.setVerticalGroup(
@@ -239,8 +243,9 @@ public class AddFoodItem extends javax.swing.JFrame {
             }
         });
 
-        lblViewFood1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lblViewFood1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewFood1.setForeground(new java.awt.Color(255, 255, 255));
+        lblViewFood1.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\view food.png")); // NOI18N
         lblViewFood1.setText("View Food");
 
         javax.swing.GroupLayout pnlViewFoodLayout = new javax.swing.GroupLayout(pnlViewFood);
@@ -249,7 +254,7 @@ public class AddFoodItem extends javax.swing.JFrame {
             pnlViewFoodLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlViewFoodLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblViewFood1, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblViewFood1)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlViewFoodLayout.setVerticalGroup(
@@ -328,7 +333,6 @@ public class AddFoodItem extends javax.swing.JFrame {
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(353, 227, 99, -1));
 
         txtFoodName.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtFoodName.setForeground(new java.awt.Color(0, 0, 0));
         txtFoodName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel1.add(txtFoodName, new org.netbeans.lib.awtextra.AbsoluteConstraints(471, 226, 350, -1));
 

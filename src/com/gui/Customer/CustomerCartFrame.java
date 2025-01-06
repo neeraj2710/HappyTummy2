@@ -29,6 +29,7 @@ public class CustomerCartFrame extends javax.swing.JFrame {
     private DefaultTableModel model;
     public CustomerCartFrame() {
         initComponents();
+        this.lblName.setText("Hi, "+UserProfile.getUserName());
         this.setLocationRelativeTo(null);
         model = (DefaultTableModel) this.jtCart.getModel();
         System.out.println(UserProfile.getUserId());
@@ -85,6 +86,7 @@ public class CustomerCartFrame extends javax.swing.JFrame {
 
         lblViewStaff1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewStaff1.setForeground(new java.awt.Color(255, 255, 255));
+        lblViewStaff1.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\order list.png")); // NOI18N
         lblViewStaff1.setText("Order History");
 
         javax.swing.GroupLayout pnlOrderHistoryLayout = new javax.swing.GroupLayout(pnlOrderHistory);
@@ -119,6 +121,7 @@ public class CustomerCartFrame extends javax.swing.JFrame {
 
         lblOrderList.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblOrderList.setForeground(new java.awt.Color(255, 255, 255));
+        lblOrderList.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\back.png")); // NOI18N
         lblOrderList.setText("Back");
 
         javax.swing.GroupLayout pnlBackLayout = new javax.swing.GroupLayout(pnlBack);
@@ -127,7 +130,7 @@ public class CustomerCartFrame extends javax.swing.JFrame {
             pnlBackLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlBackLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblOrderList, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblOrderList)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlBackLayout.setVerticalGroup(
@@ -174,6 +177,7 @@ public class CustomerCartFrame extends javax.swing.JFrame {
 
         lblViewFood1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewFood1.setForeground(new java.awt.Color(255, 255, 255));
+        lblViewFood1.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\cancel-48.png")); // NOI18N
         lblViewFood1.setText("Cancel Order");
 
         javax.swing.GroupLayout pnlCancelOrderLayout = new javax.swing.GroupLayout(pnlCancelOrder);
@@ -208,6 +212,7 @@ public class CustomerCartFrame extends javax.swing.JFrame {
 
         lblAddStaff3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblAddStaff3.setForeground(new java.awt.Color(255, 255, 255));
+        lblAddStaff3.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\view food.png")); // NOI18N
         lblAddStaff3.setText("Order Food");
 
         javax.swing.GroupLayout pnlOrderFoodLayout = new javax.swing.GroupLayout(pnlOrderFood);
@@ -242,6 +247,7 @@ public class CustomerCartFrame extends javax.swing.JFrame {
 
         lblAddStaff2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblAddStaff2.setForeground(new java.awt.Color(255, 255, 255));
+        lblAddStaff2.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\user-48.png")); // NOI18N
         lblAddStaff2.setText("My Account");
 
         javax.swing.GroupLayout pnlMyAccountLayout = new javax.swing.GroupLayout(pnlMyAccount);
@@ -251,7 +257,7 @@ public class CustomerCartFrame extends javax.swing.JFrame {
             .addGroup(pnlMyAccountLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(lblAddStaff2, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(145, Short.MAX_VALUE))
+                .addContainerGap(187, Short.MAX_VALUE))
         );
         pnlMyAccountLayout.setVerticalGroup(
             pnlMyAccountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -267,7 +273,7 @@ public class CustomerCartFrame extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 46, Short.MAX_VALUE))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(pnlMyAccount, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -298,7 +304,7 @@ public class CustomerCartFrame extends javax.swing.JFrame {
 
         jPanel7.setBackground(new java.awt.Color(51, 204, 255));
 
-        lblName.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        lblName.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         lblName.setForeground(new java.awt.Color(255, 255, 255));
         lblName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblName.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\profile-removebg-preview.png")); // NOI18N
@@ -319,9 +325,7 @@ public class CustomerCartFrame extends javax.swing.JFrame {
 
         jPanel1.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 0, 750, 40));
 
-        jtCart.setBackground(new java.awt.Color(255, 255, 255));
         jtCart.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jtCart.setForeground(new java.awt.Color(0, 0, 0));
         jtCart.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 

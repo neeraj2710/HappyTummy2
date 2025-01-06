@@ -23,13 +23,17 @@ public class DBConnection {
     }
     static{
         try{
-            conn=DriverManager.getConnection("jdbc:oracle:thin:@//LAPTOP-CVA9M52B:1521/xe","happytummy","happytummy");
+            conn = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521/xe","happytummy","happytummy");
             JOptionPane.showMessageDialog(null,"Connected successfully");
-        }catch(SQLException ex){
+        }catch(Exception ex){
+           
             JOptionPane.showMessageDialog(null,"Connot open Connection");
             ex.printStackTrace();
             System.exit(0);
         }
+    }
+    public static void main(String[] args) {
+        
     }
     
 }

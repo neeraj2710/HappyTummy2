@@ -26,6 +26,7 @@ public class CustomerRegistrationFrame extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         txtEmail = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
@@ -55,12 +56,19 @@ public class CustomerRegistrationFrame extends javax.swing.JFrame {
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("Registration");
 
+        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel9.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\—Pngtree—log in login interface computer_3945571.png")); // NOI18N
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 410, Short.MAX_VALUE)
             .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(23, 23, 23)
+                .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -68,6 +76,8 @@ public class CustomerRegistrationFrame extends javax.swing.JFrame {
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 358, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -76,9 +86,7 @@ public class CustomerRegistrationFrame extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(51, 51, 255));
         jLabel3.setText("Email ID:");
 
-        txtEmail.setBackground(new java.awt.Color(255, 255, 255));
         txtEmail.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtEmail.setForeground(new java.awt.Color(0, 0, 0));
         txtEmail.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtEmail.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -91,9 +99,7 @@ public class CustomerRegistrationFrame extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(51, 51, 255));
         jLabel4.setText("Name:");
 
-        txtName.setBackground(new java.awt.Color(255, 255, 255));
         txtName.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtName.setForeground(new java.awt.Color(0, 0, 0));
         txtName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel5.setBackground(new java.awt.Color(255, 255, 255));
@@ -106,9 +112,7 @@ public class CustomerRegistrationFrame extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(51, 51, 255));
         jLabel6.setText("Password:");
 
-        txtMobile.setBackground(new java.awt.Color(255, 255, 255));
         txtMobile.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtMobile.setForeground(new java.awt.Color(0, 0, 0));
         txtMobile.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel7.setBackground(new java.awt.Color(255, 255, 255));
@@ -116,9 +120,7 @@ public class CustomerRegistrationFrame extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(51, 51, 255));
         jLabel7.setText("Address:");
 
-        txtAddress.setBackground(new java.awt.Color(255, 255, 255));
         txtAddress.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtAddress.setForeground(new java.awt.Color(0, 0, 0));
         txtAddress.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         btnRegister.setBackground(new java.awt.Color(51, 51, 255));
@@ -141,9 +143,7 @@ public class CustomerRegistrationFrame extends javax.swing.JFrame {
             }
         });
 
-        txtPwd.setBackground(new java.awt.Color(255, 255, 255));
         txtPwd.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtPwd.setForeground(new java.awt.Color(0, 0, 0));
         txtPwd.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -312,6 +312,7 @@ public class CustomerRegistrationFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JTextField txtAddress;

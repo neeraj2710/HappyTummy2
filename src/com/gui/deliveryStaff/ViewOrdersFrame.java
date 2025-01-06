@@ -67,6 +67,7 @@ public class ViewOrdersFrame extends javax.swing.JFrame {
 
         lblViewStaff1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewStaff1.setForeground(new java.awt.Color(255, 255, 255));
+        lblViewStaff1.setIcon(new javax.swing.ImageIcon("D:\\friends\\s1\\logout-48.png")); // NOI18N
         lblViewStaff1.setText("Logout");
 
         javax.swing.GroupLayout pnlLogoutLayout = new javax.swing.GroupLayout(pnlLogout);
@@ -125,6 +126,7 @@ public class ViewOrdersFrame extends javax.swing.JFrame {
 
         lblViewFood1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewFood1.setForeground(new java.awt.Color(255, 255, 255));
+        lblViewFood1.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\order list.png")); // NOI18N
         lblViewFood1.setText("Order History");
 
         javax.swing.GroupLayout pnlOrderHistoryLayout = new javax.swing.GroupLayout(pnlOrderHistory);
@@ -133,7 +135,7 @@ public class ViewOrdersFrame extends javax.swing.JFrame {
             pnlOrderHistoryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlOrderHistoryLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblViewFood1)
+                .addComponent(lblViewFood1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlOrderHistoryLayout.setVerticalGroup(
@@ -159,6 +161,7 @@ public class ViewOrdersFrame extends javax.swing.JFrame {
 
         lblViewStaff2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lblViewStaff2.setForeground(new java.awt.Color(255, 255, 255));
+        lblViewStaff2.setIcon(new javax.swing.ImageIcon("D:\\database\\Happy Tummy\\src\\com\\icons\\back.png")); // NOI18N
         lblViewStaff2.setText("Back");
 
         javax.swing.GroupLayout pnlBackLayout = new javax.swing.GroupLayout(pnlBack);
@@ -167,7 +170,7 @@ public class ViewOrdersFrame extends javax.swing.JFrame {
             pnlBackLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlBackLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblViewStaff2)
+                .addComponent(lblViewStaff2, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlBackLayout.setVerticalGroup(
@@ -233,9 +236,7 @@ public class ViewOrdersFrame extends javax.swing.JFrame {
 
         jPanel1.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 0, 1040, 40));
 
-        jtViewOrders.setBackground(new java.awt.Color(255, 255, 255));
         jtViewOrders.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jtViewOrders.setForeground(new java.awt.Color(0, 0, 0));
         jtViewOrders.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
