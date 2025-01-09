@@ -71,9 +71,9 @@ Happy Tummy is a Java-based desktop application that allows restaurants to regis
 1. Install Java Development Kit (JDK) 8
 2. Set up Oracle 11g Database and configure it with the provide DBConnection.java class
 3. Set up a Spoonacular API account and get an API key.
-4. Clone this repository:
+4. 3. Clone this repository:
    ```bash
-  git clone https://github.com/neeraj2710/HappyTummy2.git
+   git clone https://github.com/neeraj2710/HappyTummy2.git
 
 ## Working
 
