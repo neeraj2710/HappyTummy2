@@ -73,7 +73,7 @@ Happy Tummy is a Java-based desktop application that allows restaurants to regis
 3. Set up a Spoonacular API account and get an API key.
 4. Clone this repository:
    ```bash
-   https://github.com/neeraj2710/HappyTummy2.git
+  git clone https://github.com/neeraj2710/HappyTummy2.git
 
 ## Working
 
